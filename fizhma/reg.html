@@ -1,7 +1,10 @@
+
 <html>
 <head>
 <title>Регистрация на сайте</title>
 <meta charset="utf-8">
+<link rel="stylesheet" href="venom.css">
+
 <script>
 function sizePic(){
   size=document.getElementByld("size").value;
@@ -10,15 +13,21 @@ function sizePic(){
 }
 </script>  
 </head>  
-<body>  
+<body>
+<div class="menu">
+<h1>Богдыхан Сигма Сигмович в четырёхсотом поколении</h1>
+<h2>Регистрации на туда</h2>
 <ul>
         <li><a href="index.html">Главная</a></li>
         <li><a href="reg.html">Регистрация</a></li>
-        <li><a href="#">Каталог</a></li>
+        <li><a href="katalog.html">Каталог</a></li>
     </ul>
     <hr>
     <footer>Фижма &venom</footer>
-<form>
+    </div>
+<hr>
+<div class="forma">
+    <form action="#">
 <fieldset>
 <legend>Авторизация</legend>  
 <p>
@@ -36,20 +45,24 @@ function sizePic(){
 <p>Логин:<input type="text" name="login" required></p>  
 <label for="password">Пароль:</label>
 <input type="password"id="password">
+</div>
+
 
 <p>
   
 </p>   
 </p>
 <p>
-<input type="submit"value="Отправить"> 
-<input type="submit"value="Отменить"> 
+<input class="bbuton" type="submit"value="Отправить"> 
+<input class="button" type="submit"value="Отменить"> 
 </p>  
 </legend>   
 </form>
 
 
-
+<div class="footer">
+    <footer>Подавал &copy;</footer>
+</div>
 
 
   
@@ -58,6 +71,6 @@ function sizePic(){
 
 </form>
 </fieldset>
-
+<script src="script.js"></script>
 </body>    
 </html>
